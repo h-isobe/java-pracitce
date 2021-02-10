@@ -23,7 +23,7 @@ public class Main {
     h2.hp = 80;
     h2.sword = s2;
 
-    System.out.println(h2.name + "の現在の武器は" + h.sword.name);
+    System.out.println(h2.name + "の現在の武器は" + h2.sword.name);
     System.out.println("攻撃力は" + h2.sword.damage);
     h2.attack(h2.sword.damage);
 
