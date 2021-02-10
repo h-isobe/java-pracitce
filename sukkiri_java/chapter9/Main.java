@@ -16,7 +16,7 @@ public class Main {
 
     Hero h2 = new Hero();
     h2.name = "アサカ";
-    h2.hp = 80;
+    h2.hp = 100;
     h2.sword = s2;
 
     Wizard w = new Wizard();
