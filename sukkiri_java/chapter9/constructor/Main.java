@@ -4,5 +4,11 @@ public class Main {
 
     System.out.println(h.hp);
     System.out.println(h.name);
+
+    //コンストラクタをオーバーロードしたクラスの利用
+    Hero h1 = new Hero("アサカ");
+    System.out.println(h1.name);
+    Hero h2 = new Hero();
+    System.out.println(h2.name);
   }
 }

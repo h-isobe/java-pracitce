@@ -8,4 +8,10 @@ public class Hero {
     this.hp = 100;     //hpフィールドを100で初期化
     this.name = name;  //引数の値でnameフィールドを初期化
   }
+
+  //コンストラクタのオーバーロード
+  public Hero() {
+    this.hp = 100;
+    this.name = "ダミー";
+  }
 }
