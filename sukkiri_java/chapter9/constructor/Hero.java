@@ -11,7 +11,6 @@ public class Hero {
 
   //コンストラクタのオーバーロード
   public Hero() {
-    this.hp = 100;
-    this.name = "ダミー";
+    this("ダミー");  //JVMがコンストラクタからコンストラクタを呼び出す
   }
 }
