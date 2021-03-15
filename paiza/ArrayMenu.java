@@ -77,5 +77,15 @@ public class ArrayMenu {
         }
         System.out.println(array[num-1]);
 
+
+        //FINAL問題 【二次元配列の入出力】i番目の出力 Boss
+        Scanner sc = new Scanner(System.in);
+        int[] intArray = Arrays.stream(sc.nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
+        int[] array = new int[intArray[0]];
+        for(int i = 0; i < array.length; i++) {
+            array[i] = sc.nextInt();
+        }
+        System.out.println(array[intArray[1]-1]);
+
     }
 }
