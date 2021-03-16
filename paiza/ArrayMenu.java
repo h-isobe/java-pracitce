@@ -86,6 +86,25 @@ public class ArrayMenu {
             array[i] = sc.nextInt();
         }
         System.out.println(array[intArray[1]-1]);
+        
 
+        //STEP: 1 配列に含まれている? 1
+        String[] array = {"10", "13", "21", "1", "6", "51", "10", "8", "15", "6"};
+        if(Arrays.asList(array).contains("6")) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
+
+
+        //STEP: 2 配列に含まれている? 2
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        Integer[] array = {5, 12, 6, 84, 14, 25, 44, 3, 7, 20};
+        if(Arrays.asList(array).contains(num)) {
+          System.out.println("Yes");
+        } else {
+          System.out.println("No");
+        }
     }
 }
