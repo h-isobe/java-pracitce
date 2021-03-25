@@ -29,5 +29,23 @@ public class c_rank_level_up_menu3 {
         System.out.println("NO");
     }
 
+
+    //STEP: 3 数字の文字列操作（基本）
+    
+
+
+    //STEP: 4 数字の文字列操作（0埋め）
+    System.out.println("STEP: 4 数字の文字列操作（0埋め）");
+    Scanner sc4 = new Scanner(System.in);
+    String n = sc4.nextLine();
+    if(n.length() == 1) {
+        System.out.println(n.format("%03d", Integer.parseInt(n)));
+    } else if(n.length() == 2) {
+        System.out.println(n.format("%03d", Integer.parseInt(n)));
+    } else {
+        System.out.println(n);
+    }
+  
+
   }
 }
